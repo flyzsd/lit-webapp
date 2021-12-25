@@ -1,0 +1,19 @@
+{
+  "name": "lit-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "light-server -s src -p 7000 --servePrefix /lit",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "light-server": "^2.9.1",
+    "lit": "^2.0.2",
+    "typescript": "^4.5.4"
+  }
+}
