@@ -57,12 +57,12 @@ declare module '*.png' {
 }
 
 /* CUSTOM: ADD YOUR OWN HERE */
-declare module 'https://unpkg.com/lit@2.0.2/index.js?module' {
+declare module 'https://cdn.jsdelivr.net/npm/lit@2.0.2/+esm' {
     const {LitElement, html, css}: typeof import ('lit');
     export {LitElement, html, css};
 }
 
-declare module 'https://unpkg.com/@lit/reactive-element@1.0.2/decorators.js?module' {
+declare module 'https://cdn.jsdelivr.net/npm/lit@2.0.2/decorators.js/+esm' {
     const {customElement, property}: typeof import('lit/decorators.js');
     export {customElement, property};
 }

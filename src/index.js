@@ -7,8 +7,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { LitElement, html, css } from 'https://unpkg.com/lit@2.0.2/index.js?module';
-import { customElement, property } from 'https://unpkg.com/@lit/reactive-element@1.0.2/decorators.js?module';
+//https://www.jsdelivr.com/package/npm/lit
+//https://cdn.jsdelivr.net/npm/lit@2.0.2/+esm
+//https://cdn.jsdelivr.net/npm/lit@2.0.2/decorators.js/+esm
+import { LitElement, html, css } from 'https://cdn.jsdelivr.net/npm/lit@2.0.2/+esm';
+import { customElement, property } from 'https://cdn.jsdelivr.net/npm/lit@2.0.2/decorators.js/+esm';
 let AppRoot = class AppRoot extends LitElement {
     constructor() {
         super(...arguments);
